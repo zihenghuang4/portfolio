@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.35c90f16.css",
+    "main.js": "/portfolio/static/js/main.228f2b21.js",
+    "static/media/map.jpeg": "/portfolio/static/media/map.4e051e9dbd1993696d52.jpeg",
+    "static/media/memegle.png": "/portfolio/static/media/memegle.ea80fac8b11f493bbb5f.png",
+    "static/media/calculator.png": "/portfolio/static/media/calculator.5c49b657974f13105047.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.d928a02c70f1fba0f1be.png",
+    "static/media/profile.jpeg": "/portfolio/static/media/profile.39db615c20efb6a1e748.jpeg",
+    "static/media/hsPortfolio.png": "/portfolio/static/media/hsPortfolio.fb337d7e6ba0877e9609.png",
+    "static/media/chatbot.png": "/portfolio/static/media/chatbot.bfe066b1c5cbafebb2f7.png",
+    "static/media/cse12.png": "/portfolio/static/media/cse12.99e027f523428dcb5051.png",
+    "static/media/profile2-bg-removed.jpg": "/portfolio/static/media/profile2-bg-removed.af288b4d9b4b71ad8725.jpg",
+    "static/media/crossIt.png": "/portfolio/static/media/crossIt.1295ae4b4a77ec6a3fe1.png",
+    "static/media/dsc96.png": "/portfolio/static/media/dsc96.e1f0ae33544551f3ada9.png",
+    "static/media/kaggle.png": "/portfolio/static/media/kaggle.dcc942304a6f6313756f.png",
+    "static/media/auth.png": "/portfolio/static/media/auth.443f125d3cdf82a1fea9.png",
+    "index.html": "/portfolio/index.html",
+    "main.35c90f16.css.map": "/portfolio/static/css/main.35c90f16.css.map",
+    "main.228f2b21.js.map": "/portfolio/static/js/main.228f2b21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35c90f16.css",
+    "static/js/main.228f2b21.js"
+  ]
+}
