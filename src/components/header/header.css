@@ -1,0 +1,71 @@
+header {
+    height: 100vh;
+    padding-top: 15rem;
+    overflow: hidden;
+    background:url('../../assets/profile2-bg-removed.jpg') var(--bg-color) no-repeat center fixed;
+    background-position: bottom;
+    background-size: contain;
+    background-blend-mode: multiply;
+    /* background: var(--bg-color); */
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.connect {
+    margin-top: 2.5rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    /* position: absolute; */
+    position: fixed;
+    /* left: 0; */
+    left: 5%;
+    /* bottom: 3rem; */
+    bottom: 0;
+
+}
+
+.socials::after {
+    content: '';
+    width: 1px;
+    /* height: 2rem; */
+    height: 5rem;
+    background-color: var(--light-blue);
+}
+
+.profile {
+    background: linear-gradient(var(--light-blue), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    header {
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+        /* background-size: auto; */
+    }
+
+    .socials {
+        display: none;
+    }
+}
