@@ -1,12 +1,12 @@
 import React from 'react';
-import './about.css';
-import PROFILE from '../../assets/profile.jpeg';
 import { FaLaptopCode, FaProjectDiagram, FaSchool } from 'react-icons/fa';
+import PROFILE from '../../assets/new_profile.JPG';
+import './about.css';
 
 const About = () => {
   return (
     <section id='about'>
-     <h5>wanna know a little more</h5>
+     <h5>A little more</h5>
      <h2>About Me</h2>
      <div className="container about__container">
       <div className="about__me">
@@ -20,29 +20,29 @@ const About = () => {
             <div className="about__icon">
               <FaLaptopCode />
             </div>
-            <h5>Experience</h5>
-            <small>• Data Science Intern @SRTI</small>
+            <h5>Work Experience</h5>
+            <small>• ML Intern @Xenon Health</small>
             <br />
-            <small>• Developer @UCSDACM</small>
+            <small>• SDE Intern @CaviSense</small>
             <br />
-            <small>• Developer @UCSDTripleC</small>
+            <small>• DS Intern @Scripps Research</small>
             <br />
-            <small>• CS TA Intern @Zhongxi</small>
+            <small>• (failed) Founder @bucket</small>
+            <br />
           </article>
           <article className="about__card">
             <div className="about__icon">
               <FaProjectDiagram />
             </div>
-            <h5>Other Projects</h5>
-            <small>• Co2 Footprint Calculator</small>
+            <h5>Research & Projects</h5>
+            <small>• HCI Research-Prof Lydia Chilton</small>
             <br />
-            <small>• Weather App</small>
+            <small>• GSW Warriors Dashboard</small>
             <br />
-            <small>• High School Maker's Portfolio</small>
+            <small>• CO2 Footprint Calculator</small>
             <br />
             <small>• EDA and ML Projects</small>
             <br />
-            <small>• School Projects</small>
           </article>
           <article className="about__card">
             <div className="about__icon">
@@ -57,7 +57,7 @@ const About = () => {
           </article>
         </div>
         <p>
-          You found me! My name is Ziheng, and I'm currently a sophomore at Columbia University studying Computer Science. I'm a passion-driven learner, and I'm fasinated by coding, especially AI and software development. I enjoy extracting insights from seemingly unorganized data and use them to make the best decisions possible. I also love developing software that meet people's need because at the end of the day, coding is a tool designed to better people's lives around the world. I'm also a out-door person! I play basketball a lot, and I'm a huge Warriors fan --- Let's go DubNation!!
+        I’m Zi (Ziheng Huang), a senior at Columbia University majoring in Computer Science. I’m deeply passionate about AI, software development, and turning complex data into meaningful insights. Whether it’s building user-centered applications or exploring the latest in machine learning, I love solving problems through code. For me, coding isn’t just about the tech — it’s about creating solutions that help people and make life better. Outside of tech, I’m your typical car guy and an avid basketball player, and I love going on adventures in the wild!
         </p>
       </div>
      </div>

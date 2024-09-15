@@ -2,7 +2,7 @@ header {
     height: 100vh;
     padding-top: 15rem;
     overflow: hidden;
-    background:url('../../assets/profile2-bg-removed.jpg') var(--bg-color) no-repeat center fixed;
+    /* background:url('../../assets/profile2-bg-removed.jpg') var(--bg-color) no-repeat center fixed; */
     background-position: bottom;
     background-size: contain;
     background-blend-mode: multiply;
@@ -13,6 +13,14 @@ header {
     text-align: center;
     height: 100%;
     position: relative;
+}
+
+.header__container h1 {
+    font-size: 75px;
+}
+
+#more {
+    font-style: italic;
 }
 
 .connect {
